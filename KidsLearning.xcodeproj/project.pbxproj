@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		3F60875927F9F26400417D26 /* KidsLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874927F9F25E00417D26 /* KidsLearningApp.swift */; };
 		3F60875A27F9F26400417D26 /* KidsLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874927F9F25E00417D26 /* KidsLearningApp.swift */; };
-		3F60875B27F9F26400417D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874A27F9F25E00417D26 /* ContentView.swift */; };
-		3F60875C27F9F26400417D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874A27F9F25E00417D26 /* ContentView.swift */; };
+		3F60875B27F9F26400417D26 /* KidsLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874A27F9F25E00417D26 /* KidsLearningView.swift */; };
+		3F60875C27F9F26400417D26 /* KidsLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874A27F9F25E00417D26 /* KidsLearningView.swift */; };
 		3F60875D27F9F26400417D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F60874B27F9F26400417D26 /* Assets.xcassets */; };
 		3F60875E27F9F26400417D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F60874B27F9F26400417D26 /* Assets.xcassets */; };
+		3F60876827F9F34600417D26 /* LearnAlphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60876727F9F34600417D26 /* LearnAlphabets.swift */; };
+		3F60876927F9F34600417D26 /* LearnAlphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60876727F9F34600417D26 /* LearnAlphabets.swift */; };
+		3F60876C27F9F7C100417D26 /* LearningCurveDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60876B27F9F7C100417D26 /* LearningCurveDataModels.swift */; };
+		3F60876D27F9F7C100417D26 /* LearningCurveDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60876B27F9F7C100417D26 /* LearningCurveDataModels.swift */; };
+		3F60877127F9FCFD00417D26 /* AlphabetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877027F9FCFD00417D26 /* AlphabetsView.swift */; };
+		3F60877227F9FCFD00417D26 /* AlphabetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877027F9FCFD00417D26 /* AlphabetsView.swift */; };
+		3F60877427FA01D900417D26 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877327FA01D900417D26 /* AnimationView.swift */; };
+		3F60877527FA01D900417D26 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877327FA01D900417D26 /* AnimationView.swift */; };
+		3F60877727FB866800417D26 /* Benzpath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877627FB866800417D26 /* Benzpath.swift */; };
+		3F60877827FB866800417D26 /* Benzpath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877627FB866800417D26 /* Benzpath.swift */; };
+		3F60877A27FB882200417D26 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877927FB882200417D26 /* ShapeView.swift */; };
+		3F60877B27FB882200417D26 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877927FB882200417D26 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F60874927F9F25E00417D26 /* KidsLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsLearningApp.swift; sourceTree = "<group>"; };
-		3F60874A27F9F25E00417D26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F60874A27F9F25E00417D26 /* KidsLearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsLearningView.swift; sourceTree = "<group>"; };
 		3F60874B27F9F26400417D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F60875027F9F26400417D26 /* KidsLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F60875627F9F26400417D26 /* KidsLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F60875827F9F26400417D26 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3F60876727F9F34600417D26 /* LearnAlphabets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAlphabets.swift; sourceTree = "<group>"; };
+		3F60876B27F9F7C100417D26 /* LearningCurveDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCurveDataModels.swift; sourceTree = "<group>"; };
+		3F60877027F9FCFD00417D26 /* AlphabetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetsView.swift; sourceTree = "<group>"; };
+		3F60877327FA01D900417D26 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		3F60877627FB866800417D26 /* Benzpath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benzpath.swift; sourceTree = "<group>"; };
+		3F60877927FB882200417D26 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +72,14 @@
 		3F60874827F9F25E00417D26 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3F60876F27F9FCEC00417D26 /* Alphabets */,
+				3F60876E27F9F84000417D26 /* LearningView */,
+				3F60876A27F9F79A00417D26 /* LearningCurves */,
 				3F60874927F9F25E00417D26 /* KidsLearningApp.swift */,
-				3F60874A27F9F25E00417D26 /* ContentView.swift */,
 				3F60874B27F9F26400417D26 /* Assets.xcassets */,
+				3F60876727F9F34600417D26 /* LearnAlphabets.swift */,
+				3F60877627FB866800417D26 /* Benzpath.swift */,
+				3F60877927FB882200417D26 /* ShapeView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +99,31 @@
 				3F60875827F9F26400417D26 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		3F60876A27F9F79A00417D26 /* LearningCurves */ = {
+			isa = PBXGroup;
+			children = (
+				3F60876B27F9F7C100417D26 /* LearningCurveDataModels.swift */,
+			);
+			path = LearningCurves;
+			sourceTree = "<group>";
+		};
+		3F60876E27F9F84000417D26 /* LearningView */ = {
+			isa = PBXGroup;
+			children = (
+				3F60874A27F9F25E00417D26 /* KidsLearningView.swift */,
+			);
+			path = LearningView;
+			sourceTree = "<group>";
+		};
+		3F60876F27F9FCEC00417D26 /* Alphabets */ = {
+			isa = PBXGroup;
+			children = (
+				3F60877027F9FCFD00417D26 /* AlphabetsView.swift */,
+				3F60877327FA01D900417D26 /* AnimationView.swift */,
+			);
+			path = Alphabets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F60875B27F9F26400417D26 /* ContentView.swift in Sources */,
+				3F60877727FB866800417D26 /* Benzpath.swift in Sources */,
+				3F60875B27F9F26400417D26 /* KidsLearningView.swift in Sources */,
 				3F60875927F9F26400417D26 /* KidsLearningApp.swift in Sources */,
+				3F60876827F9F34600417D26 /* LearnAlphabets.swift in Sources */,
+				3F60877427FA01D900417D26 /* AnimationView.swift in Sources */,
+				3F60877127F9FCFD00417D26 /* AlphabetsView.swift in Sources */,
+				3F60877A27FB882200417D26 /* ShapeView.swift in Sources */,
+				3F60876C27F9F7C100417D26 /* LearningCurveDataModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F60875C27F9F26400417D26 /* ContentView.swift in Sources */,
+				3F60877827FB866800417D26 /* Benzpath.swift in Sources */,
+				3F60875C27F9F26400417D26 /* KidsLearningView.swift in Sources */,
 				3F60875A27F9F26400417D26 /* KidsLearningApp.swift in Sources */,
+				3F60876927F9F34600417D26 /* LearnAlphabets.swift in Sources */,
+				3F60877527FA01D900417D26 /* AnimationView.swift in Sources */,
+				3F60877227F9FCFD00417D26 /* AlphabetsView.swift in Sources */,
+				3F60877B27FB882200417D26 /* ShapeView.swift in Sources */,
+				3F60876D27F9F7C100417D26 /* LearningCurveDataModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.applepush.test.KidsLearning;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kids.learning-anim";
 				PRODUCT_NAME = KidsLearning;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -355,7 +415,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.applepush.test.KidsLearning;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kids.learning-anim";
 				PRODUCT_NAME = KidsLearning;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
