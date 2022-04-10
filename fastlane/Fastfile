@@ -25,8 +25,15 @@ platform :ios do
    match({readonly: true, type: "adhoc"})
  end
 
-desc "Create ipa"
+desc "Increment the Build"
  lane :build do
+  puts "Inside the Build incrementer"
+  version_number = get_version_number(target: "KidsLearning (iOS)")
+    latest_build_number = get_latest_testflight_build_number(version_number: version_number)
+    build_number = latest_build_number + 1
+    increment_build_number(
+      build_number: build_number
+    )
    increment_build_number
    gym
  end
