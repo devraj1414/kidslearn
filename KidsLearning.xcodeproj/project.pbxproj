@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D08C45A1FFB6CD4F0FA8ECD /* Pods_KidsLearning__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01DD09570F8124118211FA4 /* Pods_KidsLearning__macOS_.framework */; };
 		3F60875927F9F26400417D26 /* KidsLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874927F9F25E00417D26 /* KidsLearningApp.swift */; };
 		3F60875A27F9F26400417D26 /* KidsLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874927F9F25E00417D26 /* KidsLearningApp.swift */; };
 		3F60875B27F9F26400417D26 /* KidsLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60874A27F9F25E00417D26 /* KidsLearningView.swift */; };
@@ -25,9 +26,15 @@
 		3F60877827FB866800417D26 /* Benzpath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877627FB866800417D26 /* Benzpath.swift */; };
 		3F60877A27FB882200417D26 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877927FB882200417D26 /* ShapeView.swift */; };
 		3F60877B27FB882200417D26 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60877927FB882200417D26 /* ShapeView.swift */; };
+		3F74773D28051ED100CBB0F4 /* AnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74773C28051ED100CBB0F4 /* AnimView.swift */; };
+		3F74773F2805E0E700CBB0F4 /* SampleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74773E2805E0E700CBB0F4 /* SampleCollection.swift */; };
+		3F75D0CE2804B446006686B1 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D0CD2804B446006686B1 /* SomeView.swift */; };
+		3F8E16002804AA5C006CB3B1 /* ExpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E15FF2804AA5B006CB3B1 /* ExpView.swift */; };
+		DD5DE501878E5C5EED9F186C /* Pods_KidsLearning__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50009A3FCB02E0CCEB568E8 /* Pods_KidsLearning__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D83513BCDD0B1CF79CDB78F /* Pods-KidsLearning (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsLearning (macOS).release.xcconfig"; path = "Target Support Files/Pods-KidsLearning (macOS)/Pods-KidsLearning (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		3F60874927F9F25E00417D26 /* KidsLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsLearningApp.swift; sourceTree = "<group>"; };
 		3F60874A27F9F25E00417D26 /* KidsLearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsLearningView.swift; sourceTree = "<group>"; };
 		3F60874B27F9F26400417D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +47,15 @@
 		3F60877327FA01D900417D26 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		3F60877627FB866800417D26 /* Benzpath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benzpath.swift; sourceTree = "<group>"; };
 		3F60877927FB882200417D26 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		3F74773C28051ED100CBB0F4 /* AnimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimView.swift; sourceTree = "<group>"; };
+		3F74773E2805E0E700CBB0F4 /* SampleCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollection.swift; sourceTree = "<group>"; };
+		3F75D0CD2804B446006686B1 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+		3F8E15FF2804AA5B006CB3B1 /* ExpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpView.swift; sourceTree = "<group>"; };
+		58729D29C2F90F266602FBFD /* Pods-KidsLearning (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsLearning (iOS).debug.xcconfig"; path = "Target Support Files/Pods-KidsLearning (iOS)/Pods-KidsLearning (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		5A8D5AE55F789BB81B4B7F38 /* Pods-KidsLearning (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsLearning (macOS).debug.xcconfig"; path = "Target Support Files/Pods-KidsLearning (macOS)/Pods-KidsLearning (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		C394738630648538A9ABDEB6 /* Pods-KidsLearning (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsLearning (iOS).release.xcconfig"; path = "Target Support Files/Pods-KidsLearning (iOS)/Pods-KidsLearning (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		C50009A3FCB02E0CCEB568E8 /* Pods_KidsLearning__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidsLearning__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01DD09570F8124118211FA4 /* Pods_KidsLearning__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidsLearning__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5DE501878E5C5EED9F186C /* Pods_KidsLearning__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D08C45A1FFB6CD4F0FA8ECD /* Pods_KidsLearning__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,15 @@
 				3F60874827F9F25E00417D26 /* Shared */,
 				3F60875727F9F26400417D26 /* macOS */,
 				3F60875127F9F26400417D26 /* Products */,
+				AA9D11FC06924FD61FA61438 /* Pods */,
+				53DA86C2C99CE7E9141BCEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3F60874827F9F25E00417D26 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3F8E15FE2804AA44006CB3B1 /* EXPREMENTAL */,
 				3F60876F27F9FCEC00417D26 /* Alphabets */,
 				3F60876E27F9F84000417D26 /* LearningView */,
 				3F60876A27F9F79A00417D26 /* LearningCurves */,
@@ -126,6 +147,37 @@
 			path = Alphabets;
 			sourceTree = "<group>";
 		};
+		3F8E15FE2804AA44006CB3B1 /* EXPREMENTAL */ = {
+			isa = PBXGroup;
+			children = (
+				3F8E15FF2804AA5B006CB3B1 /* ExpView.swift */,
+				3F75D0CD2804B446006686B1 /* SomeView.swift */,
+				3F74773C28051ED100CBB0F4 /* AnimView.swift */,
+				3F74773E2805E0E700CBB0F4 /* SampleCollection.swift */,
+			);
+			path = EXPREMENTAL;
+			sourceTree = "<group>";
+		};
+		53DA86C2C99CE7E9141BCEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50009A3FCB02E0CCEB568E8 /* Pods_KidsLearning__iOS_.framework */,
+				E01DD09570F8124118211FA4 /* Pods_KidsLearning__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9D11FC06924FD61FA61438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58729D29C2F90F266602FBFD /* Pods-KidsLearning (iOS).debug.xcconfig */,
+				C394738630648538A9ABDEB6 /* Pods-KidsLearning (iOS).release.xcconfig */,
+				5A8D5AE55F789BB81B4B7F38 /* Pods-KidsLearning (macOS).debug.xcconfig */,
+				2D83513BCDD0B1CF79CDB78F /* Pods-KidsLearning (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F60876127F9F26400417D26 /* Build configuration list for PBXNativeTarget "KidsLearning (iOS)" */;
 			buildPhases = (
+				713521CE1194AC3B6B9F9356 /* [CP] Check Pods Manifest.lock */,
 				3F60874C27F9F26400417D26 /* Sources */,
 				3F60874D27F9F26400417D26 /* Frameworks */,
 				3F60874E27F9F26400417D26 /* Resources */,
+				E01669DB36E609270DF40631 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F60876427F9F26400417D26 /* Build configuration list for PBXNativeTarget "KidsLearning (macOS)" */;
 			buildPhases = (
+				DB4503E09C9CAB3AABF1F61D /* [CP] Check Pods Manifest.lock */,
 				3F60875227F9F26400417D26 /* Sources */,
 				3F60875327F9F26400417D26 /* Frameworks */,
 				3F60875427F9F26400417D26 /* Resources */,
@@ -219,6 +274,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		713521CE1194AC3B6B9F9356 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsLearning (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4503E09C9CAB3AABF1F61D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsLearning (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01669DB36E609270DF40631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KidsLearning (iOS)/Pods-KidsLearning (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KidsLearning (iOS)/Pods-KidsLearning (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KidsLearning (iOS)/Pods-KidsLearning (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F60874C27F9F26400417D26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,8 +345,12 @@
 			files = (
 				3F60877727FB866800417D26 /* Benzpath.swift in Sources */,
 				3F60875B27F9F26400417D26 /* KidsLearningView.swift in Sources */,
+				3F74773D28051ED100CBB0F4 /* AnimView.swift in Sources */,
+				3F8E16002804AA5C006CB3B1 /* ExpView.swift in Sources */,
 				3F60875927F9F26400417D26 /* KidsLearningApp.swift in Sources */,
+				3F75D0CE2804B446006686B1 /* SomeView.swift in Sources */,
 				3F60876827F9F34600417D26 /* LearnAlphabets.swift in Sources */,
+				3F74773F2805E0E700CBB0F4 /* SampleCollection.swift in Sources */,
 				3F60877427FA01D900417D26 /* AnimationView.swift in Sources */,
 				3F60877127F9FCFD00417D26 /* AlphabetsView.swift in Sources */,
 				3F60877A27FB882200417D26 /* ShapeView.swift in Sources */,
@@ -366,6 +489,7 @@
 		};
 		3F60876227F9F26400417D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58729D29C2F90F266602FBFD /* Pods-KidsLearning (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,6 +522,7 @@
 		};
 		3F60876327F9F26400417D26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C394738630648538A9ABDEB6 /* Pods-KidsLearning (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,6 +556,7 @@
 		};
 		3F60876527F9F26400417D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8D5AE55F789BB81B4B7F38 /* Pods-KidsLearning (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +585,7 @@
 		};
 		3F60876627F9F26400417D26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D83513BCDD0B1CF79CDB78F /* Pods-KidsLearning (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

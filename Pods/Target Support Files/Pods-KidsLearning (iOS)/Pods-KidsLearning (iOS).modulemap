@@ -1,0 +1,6 @@
+framework module Pods_KidsLearning__iOS_ {
+  umbrella header "Pods-KidsLearning (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
